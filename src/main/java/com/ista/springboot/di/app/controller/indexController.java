@@ -13,7 +13,7 @@ public class indexController {
 
     // private MiServicio servicio = new MiServicio();
     @Autowired
-    @Qualifier("miServicioComplejo")
+//    @Qualifier("miServicioComplejo")
     private IServicio servicio;
 
     @GetMapping({"/","","/index"})
